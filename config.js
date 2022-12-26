@@ -7,33 +7,23 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 global.owner = [
-  ['573238484181', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈', true],
-  ['573208089136', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 2 💖🐈', true],
-  ['447451229913', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 3 💖🐈', true],
-  ['593959425714', '𝘿𝙄𝙀𝙂𝙊-𝙊𝙁𝘾 | 𝙀𝙍𝙍𝙊𝙍𝙀𝙎 💖🐈', true], 
-  ['5492266466080'], 
-  ['573136855110'],
-  ['50689823726'],
-  ['50495086382'],
-  ['51960086535'],
-  ['584125778026'],
-  ['584166662765'],
-  ['584163647116'],
-  ['593968585383']]
+  [' 393271166550 ', 'MAYO 👑 ', true],
+  ['213674234020', 'YUNA 💖', true],
+  ['213674234020', '𝐿 - 99👤', true],
+  ['213784391714']]
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.mods = [] 
-global.prems = ['528451003894'], 
+global.mods = [' 393271166550'] 
+global.prems = [' 393271166550 '], 
   
   
-//⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
-//Agrega el Idioma que quieres que tenga GataBot-MD
-//Add the language you want GataBot-MD to have
-//  es = Español         id = Bahasa Indonesia
-//  en = English         pt = Português 
+//⊱ ━━━━━.⋅ لغه ⋅.━━━━ ⊰ 
+//أضف اللغة التي تريد أن يمتلكها بوت
+//  es = اسباني         id = الإندونيسية 
+//  en = انجليزي         pt = برتغال 
 //  ar = عرب  
 
-global.lenguajeGB = es  //Idioma de GataBot, Ejemplo: es | en | pt...
+global.lenguajeGB = ar  //لغه YUNA-MD, مثال: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -73,7 +63,7 @@ global.APIs = { // API Prefix.
 },
   
 global.APIKeys = { // APIKey Here
-  //⊱ ━━━━━.⋅ 'https://website': 'apikey' ⋅.━━━━ ⊰
+  //⊱ ━━━━━.⋅ 'https://website': 'مفتاح الايبي' ⋅.━━━━ ⊰
   'https://ariarestapii.herokuapp.com': 'aria',
   'https://api-alc.herokuapp.com': 'ConfuMods',
   'https://api.reysekha.xyz': 'apirey',
@@ -92,7 +82,6 @@ global.APIKeys = { // APIKey Here
   'https://neoxr-api.herokuapp.com': 'yntkts',
   'https://anabotofc.herokuapp.com/': 'AnaBot'
 }
-
 global.imagen1 = fs.readFileSync('./media/menus/Menu1.jpg')
 
 //⊱ ━━━━━.⋅ KEY ⋅.━━━━ ⊰
@@ -108,96 +97,93 @@ global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈'
-global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
+global.packname = 'YUNA-MD 🐻'
+global.author = 'YUNA BOT'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
-//⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
+//⊱ ━━━━━.⋅ الإصدار | الرقم | حسابات ⋅.━━━━ ⊰
 
-global.vs = '1.4.0 (Navidad) 🎄'
+global.vs = '1.4.0'
 global.version = vs
 
-global.gt = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
+global.gt = 'YUNA-MD'
 global.gatabot = gt
 
-global.yt = 'https://youtube.com/channel/UCpNU4eY7eiI0ve05CssjdbA'
+global.yt = 'https://youtube.com/'
 global.youtube = yt
 
-global.ig = 'https://www.instagram.com/gata_dios'
+global.ig = 'https://www.instagram.com/a_e_b_2003'
 global.gatadiosig = ig
 
-global.md = 'https://github.com/GataNina-Li/GataBot-MD'
+global.md = 'https://github.com/ahmed1p7'
 global.gatabot = md
 
-global.nna = 'https://chat.whatsapp.com/Fs0id9YB4rXHBCv4c2RVIw'
-global.nnagrupo = nna //UPDATE GATABOT
-global.nna2 = 'Fs0id9YB4rXHBCv4c2RVIw'
+global.nna = 'https://chat.whatsapp.com/IxeB9yBYrNp85CLmKykmMM'
+global.nnagrupo = nna //UPDATE YUNA
+global.nna2 = 'IxeB9yBYrNp85CLmKykmMM'
 
-global.nn = 'https://chat.whatsapp.com/Jt76tVg51bfJNLwHwtlmGU'
+global.nn = 'https://chat.whatsapp.com/KSgHcPpZiXV7fMAscoptfw'
 global.nngrupo = nn //Grupo 1
 
-global.nnn = 'https://chat.whatsapp.com/Dx7SpgNO13fGvgCSuLjwpP'
+global.nnn = 'https://chat.whatsapp.com/KSgHcPpZiXV7fMAscoptfw'
 global.nnngrupo = nnn //Grupo 2
 
-global.nnnt = 'https://chat.whatsapp.com/LHkRugxY5jL3mhVSZJMjIw'
+global.nnnt = 'https://chat.whatsapp.com/KSgHcPpZiXV7fMAscoptfw'
 global.nnntgrupo = nnnt //Grupo 3
 
-global.nnntt = 'https://chat.whatsapp.com/JK3ut4nDbzA5BBvMeKUb7t'
+global.nnntt = 'https://chat.whatsapp.com/KSgHcPpZiXV7fMAscoptfw'
 global.nnnttgrupo = nnntt //Grupo 4
 
-global.nnnttt = 'https://chat.whatsapp.com/GSUnx4mUAuh0VQIem9aQDc'
+global.nnnttt = 'https://chat.whatsapp.com/KSgHcPpZiXV7fMAscoptfw'
 global.nnntttgrupo = nnnttt //Grupo 5
 
-global.nnnttt2 = 'https://chat.whatsapp.com/DswecLCg0elE8yNEJAdGAK'
-global.nnnttt2grupo = nnnttt2 //Grupo 6
-
-global.paypal = 'https://paypal.me/OficialGD'
+global.paypal = 'https://paypal.me/yunbot'
 global.donar = paypal
 
-global.asistencia = 'Wa.me/18059196237' //Dudas? escríbeme...
+global.asistencia = 'Wa.me/393271166550' //Dudas? escríbeme...
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
-//⊱ ━━━━━━━━━━━━━.⋅ Datos ⋅.━━━━━━━━━━━━━━ ⊰
+//⊱ ━━━━━━━━━━━━━.⋅ بيانات ⋅.━━━━━━━━━━━━━━ ⊰
 
-global.rg = '╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 | 𝙍𝙀𝙎𝙐𝙇𝙏* ⊱✅⊱╮\n\n'
+global.rg = '╰⊱✅⊱ *نتيجة* ⊱✅⊱╮\n\n'
 global.resultado = rg
 
-global.ag = '╰⊱⚠️⊱ *𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼 | 𝙒𝘼𝙍𝙉𝙄𝙉𝙂* ⊱⚠️⊱╮\n\n'
+global.ag = '╰⊱⚠️⊱ *تحذير* ⊱⚠️⊱╮\n\n'
 global.advertencia = ag
 
-global.iig = '╰⊱❕⊱ *𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊́𝙉 | 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉* ⊱⊱╮\n\n'
+global.iig = '╰⊱❕⊱ *معلومات* ⊱⊱╮\n\n'
 global.informacion = iig
 
-global.fg = '╰⊱❌⊱ *𝙁𝘼𝙇𝙇𝙊́ | 𝙀𝙍𝙍𝙊𝙍* ⊱❌⊱╮\n\n'
+global.fg = '╰⊱❌⊱ *خطاء* ⊱❌⊱╮\n\n'
 global.fallo = fg
 
-global.mg = '╰⊱❗️⊱ *𝙇𝙊 𝙐𝙎𝙊́ 𝙈𝘼𝙇 | 𝙐𝙎𝙀𝘿 𝙄𝙏 𝙒𝙍𝙊𝙉𝙂* ⊱❗️⊱╮\n\n'
+global.mg = '╰⊱❗️⊱ *استخدمها بشكل خاطئ* ⊱❗️⊱╮\n\n'
 global.mal = mg
 
-global.eeg = '╰⊱📩⊱ *𝙍𝙀𝙋𝙊𝙍𝙏𝙀 | 𝙍𝙀𝙋𝙊𝙍𝙏* ⊱📩⊱╮\n\n'
+global.eeg = '╰⊱📩⊱ *تقرير* ⊱📩⊱╮\n\n'
 global.envio = eeg
 
-global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎𝙎* ⊱💚⊱╮\n\n'
+global.eg = '╰⊱💚⊱ *نجاح* ⊱💚⊱╮\n\n'
 global.exito = eg
 
-//𝙀𝙅𝙀𝙈𝙋𝙇𝙊 | 𝙀𝙓𝘼𝙈𝙋𝙇𝙀
+//مثال
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
-//⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
+//⊱ ━━━━━.⋅ معلومات ⋅.━━━━ ⊰
 
-global.wm = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
-global.igfg = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
-global.wait = '*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*'
-global.waitt = '*⌛ _Cargando | Charging..._ ▬▬▭▭▭*'
-global.waittt = '*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*'
-global.waitttt = '*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*'
-global.nomorown = '593993684821'
-global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
+global.wm = ' YUNA-MD: YUNA'
+global.igfg = 'YUNA-MD'
+global.wait = '*⌛ _جاري التحميل..._ ▬▭▭▭▭▭▭*'
+global.waitt = '*⌛ _جاري التحميل..._ ▬▬▭▭▭*'
+global.waittt = '*⌛ _جاري التحميل..._ ▬▬▬▬▭▭*'
+global.waitttt = '*⌛ _جاري التحميل..._ ▬▬▬▬▬▬▭*'
+global.nomorown = ' 393271166550' 
+global.pdoc = ['', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -213,24 +199,24 @@ global.lolkeysapi = ['85faf717d0545d14074659ad']
 
 //━━━━━━━━━━━━━━ img ━━━━━━━━━
 
-global.img = 'https://i.imgur.com/IXlUwTW.jpg'
-global.img2 = 'https://i.imgur.com/EXTbyyn.jpg'
+global.img = 'https://i.imgur.com/WdjOrkq.jpeg'
+global.img2 = 'https://i.imgur.com/QlxuxAS.jpeg'
 
-global.img3 = 'https://i.imgur.com/oUAGYc2.jpg' //prem
-global.img4 = 'https://i.imgur.com/i0pccuo.jpg' //prem
+global.img3 = 'https://i.imgur.com/615mJ2s.jpeg' //prem
+global.img4 = 'https://i.imgur.com/fRcHio0.gif' //prem
 
-global.img5 = 'https://i.imgur.com/iL1snRx.jpeg'
-global.img6 = 'https://i.imgur.com/cYFgSKv.jpeg'
-global.img7 = 'https://i.imgur.com/JqL3h2V.jpeg'
-global.img8 = 'https://i.imgur.com/PCujt1s.jpeg'
-global.img9 = 'https://i.imgur.com/xfUEdDb.jpeg'
+global.img5 = 'https://i.imgur.com/FpGvSKJ.jpeg'
+global.img6 = 'https://i.imgur.com/LU12lhz.gif'
+global.img7 = 'https://i.imgur.com/FpGvSKJ.jpeg'
+global.img8 = 'https://i.imgur.com/f2fV9WA.jpeg'
+global.img9 = 'https://i.imgur.com/fRcHio0.gif'
 
-global.img10 = 'https://i.imgur.com/DvHoMc3.jpg'
-global.img11 = 'https://i.imgur.com/5Q1MqGD.jpg'
-global.img12 = 'https://i.imgur.com/vWnsjh8.jpg'
-global.img13 = 'https://i.imgur.com/pCfFOgw.jpeg'
-global.img14 = 'https://i.imgur.com/knBDWRA.jpeg'
-global.img15 = 'https://i.imgur.com/QrkkKx7.jpeg'
+global.img10 = 'https://i.imgur.com/QlxuxAS.jpeg'
+global.img11 = 'https://i.imgur.com/WdjOrkq.jpeg'
+global.img12 = 'https://i.imgur.com/615mJ2s.jpeg'
+global.img13 = 'https://i.imgur.com/Hff1jGB.jpeg'
+global.img14 = 'https://i.imgur.com/zFhpTZ4.jpeg'
+global.img15 = 'https://i.imgur.com/QlxuxAS.jpeg'
 
 global.redesMenu = [nna, nn, nnn, nnnt, nnntt, nnnttt, md, ig, paypal, yt]
 global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15]
@@ -254,8 +240,8 @@ global.cmenuf = '╰━═┅═━––––––๑\n'
 global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     '
  
 global.dmenut = '*❖─┅──┅〈*'
-global.dmenub = '*┊»*'
-global.dmenub2 = '*┊*'
+global.dmenub = '*╿O⋗*'
+global.dmenub2 = '*╿*'
 global.dmenuf = '*╰┅────────┅✦*'
 global.htjava = '⫹⫺'
 
@@ -265,8 +251,8 @@ global.htka = '*☪ ••••̩̩͙⊰•⭑*'
 global.comienzo = '• • ◕◕════'
 global.fin = '════◕◕ • •'
 
-global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}` //Asia/Jakarta
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`//America/Los_Angeles
+global.botdate = `⫹⫺ Date :  ${moment.tz('Europe/Rome').format('DD/MM/YY')}` //تاريخ
+global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Europe/Rome').format('HH:mm:ss')}`// وقت
 global.fgif = {
             key: {
                  participant : '0@s.whatsapp.net'},
@@ -292,47 +278,47 @@ global.rpg = {
   emoticon(string) {
     string = string.toLowerCase()
     let emot = {
-      level: '🧬 Nivel : Level',
+      level: '🧬 مستوى ',
       limit: lenguajeGB.eDiamante(),
       exp: lenguajeGB.eExp(),
-      bank: '🏦 Banco : Bank',
+      bank: '🏦 بنك',
       diamond: lenguajeGB.eDiamantePlus(),
-      health: '❤️ Salud : Health',
+      health: '❤️ الصحة',
       kyubi: lenguajeGB.eMagia(),
       joincount: lenguajeGB.eToken(),
       emerald: lenguajeGB.eEsmeralda(),
       stamina: lenguajeGB.eEnergia(),
-      role: '💪 Rango | Role',
-      premium: '🎟️ Premium',
-      pointxp: '📧 Puntos Exp : Point Xp',
+      role: '💪 دور',
+      premium: '🎟️ مميز',
+      pointxp: '📧 نقطة إكس بي ',
       gold: lenguajeGB.eOro(),
       
       trash: lenguajeGB.eBasura(),
-      crystal: '🔮 Cristal : Crystal',
-      intelligence: '🧠 Inteligencia : Intelligence',
+      crystal: '🔮 بلور',
+      intelligence: '🧠 الذكاء ',
       string: lenguajeGB.eCuerda(),
-      keygold: '🔑 Llave de Oro : Key Gold',
-      keyiron: '🗝️ Llave de Hierro : Key Iron',
+      keygold: '🔑  مفتاح الذهب ',
+      keyiron: '🗝️ مفتاح حديد',
       emas: lenguajeGB.ePinata(),
-      fishingrod: '🎣 Caña de Pescar : Fishing Rod',
-      gems: '🍀 Gemas : Gemas',
-      magicwand: '⚕️ Varita Mágica : Magic Wand',
-      mana: '🪄 Hechizo : Spell',
-      agility: '🤸‍♂️ Agilidad : Agility',
-      darkcrystal: '♠️ Cristal Oscuro : Dark Glass',
+      fishingrod: '🎣 صنارة الصيد ',
+      gems: '🍀 ورقة حظ',
+      magicwand: '⚕️ العصا السحرية',
+      mana: '🪄 يتهجى  ',
+      agility: '🤸🏻 رشاقة',
+      darkcrystal: '♠️ كريستال داكن',
       iron: lenguajeGB.eHierro(),
       rock: lenguajeGB.eRoca(),
       potion: lenguajeGB.ePocion(),
-      superior: '💼 Superior : Superior',
-      robo: '🚔 Robo : Robo',
-      upgrader: '🧰 Aumentar Mejora : Upgrade',
+      superior: '💼  متفوق',
+      robo: '🚔 سرقة',
+      upgrader: '🧰 ترقيه',
       wood: lenguajeGB.eMadera(),
       
-      strength: '🦹‍ ♀️ Fuerza : Strength',
-      arc: '🏹 Arco : Arc',
-      armor: '🥼 Armadura : Armor',
-      bow: '🏹 Super Arco : Super Bow',
-      pickaxe: '⛏️ Pico : Peak',
+      strength: '🦹‍ ♀️ قوة',
+      arc: '🏹  قوس',
+      armor: '🥼 درع',
+      bow: '🏹 قوس متطور ',
+      pickaxe: '⛏️ بيكاكس',
       sword: lenguajeGB.eEspada(),
       
       common: lenguajeGB.eCComun(),
@@ -344,40 +330,40 @@ global.rpg = {
       
       bibitanggur: lenguajeGB.eSUva(), bibitapel: lenguajeGB.eSManzana(), bibitjeruk: lenguajeGB.eSNaranja(), bibitmangga: lenguajeGB.eSMango(), bibitpisang: lenguajeGB.eSPlatano(),
       
-      ayam: '🐓 Pollo : Chicken',
-      babi: '🐖 Puerco : Pig',
-      Jabali: '🐗 Jabalí : Wild Boar',
-      bull: '🐃 Toro : Bull',    
-      buaya: '🐊 Cocodrilo : Alligator',    
+      ayam: '🐓 ديك ',
+      babi: '🐖 خنزير',
+      Jabali: '🐗 خنزير بري',
+      bull: '🐃 ثور',    
+      buaya: '🐊 تمساح',    
       cat: lenguajeGB.eGato(),    
       centaur: lenguajeGB.eCentauro(),
-      chicken: '🐓 Pollo : Chicken',
-      cow: '🐄 Vaca : Cow', 
+      chicken: '🐓 دجاجه',
+      cow: '🐄 بقرة', 
       dog: lenguajeGB.ePerro(),
       dragon: lenguajeGB.eDragon(),
-      elephant: '🐘 Elefante : Elephant',
+      elephant: '🐘 فيل',
       fox: lenguajeGB.eZorro(),
-      giraffe: '🦒 Jirafa : Giraffe',
+      giraffe: '🦒 زرافة',
       griffin: lenguajeGB.eAve(), //Mascota : Griffin',
       horse: lenguajeGB.eCaballo(),
-      kambing: '🐐 Cabra : Goat',
-      kerbau: '🐃 Búfalo : Buffalo',
-      lion: '🦁 León : Lion',
+      kambing: '🐐 ماعز',
+      kerbau: '🐃 جاموس ',
+      lion: '🦁 أسد',
       money: lenguajeGB.eGataCoins(),
-      monyet: '🐒 Mono : Monkey',
-      panda: '🐼 Panda',
-      snake: '🐍 Serpiente : Snake',
-      phonix: '🕊️ Fénix : Phoenix',
-      rhinoceros: '🦏 Rinoceronte : Rhinoceros',
+      monyet: '🐒 قرد',
+      panda: '🐼 باندا',
+      snake: '🐍 افعة',
+      phonix: '🕊️ فينيكس',
+      rhinoceros: '🦏 وحيد القرن',
       wolf: lenguajeGB.eLobo(),
-      tiger: '🐅 Tigre : Tiger',
-      cumi: '🦑 Calamar : Squid',
-      udang: '🦐 Camarón : Shrimp',
-      ikan: '🐟 Pez : Fish',
+      tiger: '🐅 نمر',
+      cumi: '🦑 حبار ',
+      udang: '🦐 جمبري ',
+      ikan: '🐟 سمك',
       
-      fideos: '🍝 Fideos : Noodles',
-      ramuan: '🧪 Ingrediente NOVA : Ingredients',
-      knife: '🔪 Cuchillo : Knife'
+      fideos: '🍝 نودلز',
+      ramuan: '🧪 مكون جديد ',
+      knife: '🔪 سكين'
     }
     let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
     if (!results.length) return ''
