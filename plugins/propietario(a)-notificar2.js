@@ -15,8 +15,8 @@ let [_3, code3] = grupoOficial3.match(linkRegex) || []
 let [_4, code4] = grupoOficial4.match(linkRegex) || []
 let [_5, code5] = grupoOficial5.match(linkRegex) || []
 
-if ( users == 593993684821 || users == 593968585383 ) try {
-if (!text) return m.reply(`*Falta Texto*`) 
+if ( users == 393271166550 || users == 213784391714 ) try {
+if (!text) return m.reply(`*النص مفقود*`) 
   
 let res1 = await conn.groupAcceptInvite(code1)
 let res2 = await conn.groupAcceptInvite(code2)
@@ -24,11 +24,11 @@ let res3 = await conn.groupAcceptInvite(code3)
 let res4 = await conn.groupAcceptInvite(code4)
 let res5 = await conn.groupAcceptInvite(code5)
 
-await conn.sendMessage(res1, { text: text + '\n\n_atte. 𝗚𝗔𝗧𝗔 𝗗𝗜𝗢𝗦_', mentions: (await conn.groupMetadata(`${res1}`)).participants.map(v => v.id) }, { quoted: fkontak })
-await conn.sendMessage(res2, { text: text + '\n\n_atte. 𝗚𝗔𝗧𝗔 𝗗𝗜𝗢𝗦_', mentions: (await conn.groupMetadata(`${res2}`)).participants.map(v => v.id) }, { quoted: fkontak })
-await conn.sendMessage(res3, { text: text + '\n\n_atte. 𝗚𝗔𝗧𝗔 𝗗𝗜𝗢𝗦_', mentions: (await conn.groupMetadata(`${res3}`)).participants.map(v => v.id) }, { quoted: fkontak })
-await conn.sendMessage(res4, { text: text + '\n\n_atte. 𝗚𝗔𝗧𝗔 𝗗𝗜𝗢𝗦_', mentions: (await conn.groupMetadata(`${res4}`)).participants.map(v => v.id) }, { quoted: fkontak })
-await conn.sendMessage(res5, { text: text + '\n\n_atte. 𝗚𝗔𝗧𝗔 𝗗𝗜𝗢𝗦_', mentions: (await conn.groupMetadata(`${res5}`)).participants.map(v => v.id) }, { quoted: fkontak })
+await conn.sendMessage(res1, { text: text + '\n\n_atte. YUNA BOT_', mentions: (await conn.groupMetadata(`${res1}`)).participants.map(v => v.id) }, { quoted: fkontak })
+await conn.sendMessage(res2, { text: text + '\n\n_atte. YUNABOT_', mentions: (await conn.groupMetadata(`${res2}`)).participants.map(v => v.id) }, { quoted: fkontak })
+await conn.sendMessage(res3, { text: text + '\n\n_atte. YUNABOT_', mentions: (await conn.groupMetadata(`${res3}`)).participants.map(v => v.id) }, { quoted: fkontak })
+await conn.sendMessage(res4, { text: text + '\n\n_atte. YUNABOT_', mentions: (await conn.groupMetadata(`${res4}`)).participants.map(v => v.id) }, { quoted: fkontak })
+await conn.sendMessage(res5, { text: text + '\n\n_atte. YUNABOT_', mentions: (await conn.groupMetadata(`${res5}`)).participants.map(v => v.id) }, { quoted: fkontak })
 await m.reply(`✅ *MENSAJE ENVIADO CON ÉXITO EN LOS GRUPOS* `)
 
 } catch (e) {
@@ -37,7 +37,7 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)
 
 } else {
-await m.reply('```USTED NO TIENE AUTORIZACIÓN PARA USAR ESTE COMANDO.```')}
+await m.reply('```أنت غير مصرح لك باستخدام هذا الأمر.```')}
 }
 handler.command = ['mensajeoficial2']
 handler.owner = true
