@@ -80,13 +80,12 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 
 ⠇ ${lenguajeGB['smsTex8']()} 🛰️
-∘ _${usedPrefix}toimg | img | jpg *sticker*_
-∘ _${usedPrefix}tomp3 | mp3 *video o nota de voz*_
-∘ _${usedPrefix}tovn | vn *video o audio*_
-∘ _${usedPrefix}tovideo *audio*_
-∘ _${usedPrefix}tourl *video, imagen*_
-∘ _${usedPrefix}toenlace  *video, imagen o audio*_
-∘ _${usedPrefix}tts es *texto*_
+∘ _${usedPrefix}toimg | img | jpg *يقوم بتحويل ملصق إلى صوره*_
+∘ _${usedPrefix}tomp3 | mp3 *فيديو الملاحظة الصوتية*_
+∘ _${usedPrefix}tovn | vn *فيديو وصوت*_
+∘ _${usedPrefix}tourl *فيديو, صورة*_
+∘ _${usedPrefix}toenlace  *فيديو أو صورة أو صوت*_
+∘ _${usedPrefix}tts ar *نص*_
 `.trim()
 await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 

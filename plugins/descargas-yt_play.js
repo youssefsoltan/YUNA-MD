@@ -1,62 +1,138 @@
-import fetch from 'node-fetch'
+/*import fetch from 'node-fetch'
 import { youtubeSearch } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, text, usedPrefix }) => {
-try {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let grupos = [nna, nn, nnn, nnnt, nnntt, nnnttt]
 let gata = [img5, img6, img7, img8, img9]
 let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: 'YUNA-MD', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]
 
-if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝙊 𝙏𝙄𝙏𝙐𝙇𝙊\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} Billie Eilish - Bellyache*\n\n𝙒𝙍𝙄𝙏𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀 𝙊𝙍 𝙏𝙄𝙏𝙇𝙀\n𝙀𝙓𝘼𝙈𝙋𝙇𝙀\n*${usedPrefix + command} Billie Eilish - Bellyache*`
+if (!text) throw `${lenguajeGB['smsAvisoMG']()} أدخل الاسم أو العنوان \nمثال\n*${usedPrefix + command} ما تيسر من سورة التغابن*   `
 let vid = (await youtubeSearch(text)).video[0]
-if (!vid) throw `${lenguajeGB['smsAvisoFG']()}𝙉𝙊 𝙎𝙀 𝙋𝙐𝘿𝙊 𝙀𝙉𝘾𝙊𝙉𝙏𝙍𝘼𝙍 𝙀𝙇 𝘼𝙐𝘿𝙄𝙊/𝙑𝙄𝘿𝙀𝙊. 𝙄𝙉𝙏𝙀𝙉𝙏𝙀 𝘾𝙊𝙉 𝙊𝙏𝙍𝙊 𝙉𝙊𝙈𝘽𝙍𝙀 𝙊 𝙏𝙄𝙏𝙐𝙇𝙊\n\n𝙏𝙃𝙀 𝘼𝙐𝘿𝙄𝙊/𝙑𝙄𝘿𝙀𝙊 𝘾𝙊𝙐𝙇𝘿 𝙉𝙊𝙏 𝘽𝙀 𝙁𝙊𝙐𝙉𝘿. 𝙏𝙍𝙔 𝘼𝙉𝙊𝙏𝙃𝙀𝙍 𝙉𝘼𝙈𝙀 𝙊𝙍 𝙏𝙄𝙏𝙇𝙀`
+if (!vid) throw `${lenguajeGB['smsAvisoFG']()}تعذر العثور على الصوت/الفيديو. جرب اسما أو عنوانا آخر`
+try {
 let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
 const url = 'https://www.youtube.com/watch?v=' + videoId
  
 await conn.sendButton(m.chat, wm, `*𓆩 𓃠 𓆪 ✧═══ ${vs} ═══✧ 𓆩 𓃠 𓆪*
 
-ও 𝙏𝙄𝙏𝙐𝙇𝙊 | 𝙏𝙄𝙏𝙇𝙀
+ও عنوات:
 » ${title}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝘿𝙀𝙎𝘾𝙍𝙄𝙋𝘾𝙄𝙊𝙉 | 𝘿𝙀𝙎𝘾𝙍𝙄𝙋𝙏𝙄𝙊𝙉
+ও الوصف:
 » ${description}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝙋𝙐𝘽𝙇𝙄𝘾𝘼𝘿𝙊 | 𝙋𝙐𝘽𝙇𝙄𝙎𝙃𝙀𝘿
+ও تاريخ النشر:
 » ${publishedTime}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝘿𝙐𝙍𝘼𝘾𝙄𝙊𝙉 | 𝘿𝙐𝙍𝘼𝙏𝙄𝙊𝙉
+ও المودة:
 » ${durationH}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝙑𝙄𝙎𝙏𝘼𝙎 | 𝙑𝙄𝙀𝙒𝙎
+ও المشاهدات:
 » ${viewH}
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝙐𝙍𝙇
+ও الرابط:
 » ${url}
 
-*𓆩 𓃠 𓆪 ✧═══ ${vs} ═══✧ 𓆩 𓃠 𓆪*`, thumbnail, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], m, dos.getRandom())
+*𓆩 𓃠 𓆪 ✧═══ ${vs} ═══✧ 𓆩 𓃠 𓆪*`, thumbnail, [['قـائمـة☘️', '/menu']], m, dos.getRandom())
   
 const sections = [{
-title: comienzo + ' 📡 𝗧𝗜𝗣𝗢𝗦 𝗗𝗘 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 ' + fin,
+title: comienzo + ' 📡 اختر طريقة التحميل' + fin,
 rows: [
-{title: "𓃠 𝗔 𝗨 𝗗 𝗜 𝗢 (Opcion 1)", rowId: `${usedPrefix}yta ${url}`, description: `${title}\n`},
-{title: "𓃠 𝗔 𝗨 𝗗 𝗜 𝗢 (Opcion 2)", rowId: `${usedPrefix}play.1 ${url}`, description: `${title}\n`},
-{title: "𓃠 𝗔 𝗨 𝗗 𝗜 𝗢   𝗗 𝗢 𝗖", rowId: `${usedPrefix}pdocaudio ${url}`, description: `${title}\n`},
-{title: "𓃠 𝗩 𝗜 𝗗 𝗘 𝗢 (Opcion 1)", rowId: `${usedPrefix}ytv ${url}`, description: `${title}\n`},
-{title: "𓃠 𝗩 𝗜 𝗗 𝗘 𝗢 (Opcion 2)", rowId: `${usedPrefix}play.2 ${url}`, description: `${title}\n`},
-{title: "𓃠 𝗩 𝗜 𝗗 𝗘 𝗢   𝗗 𝗢 𝗖", rowId: `${usedPrefix}pdocvieo ${url}`, description: `${title}\n`}
+{title: "صوت (النوع 1)", rowId: `${usedPrefix}yta ${url}`, description: `${title}\n`},
+{title: "صوت (النوع 2)", rowId: `${usedPrefix}play.1 ${url}`, description: `${title}\n`},
+{title: "صوت النوع ملف) ", rowId: `${usedPrefix}pdocaudio ${url}`, description: `${title}\n`},
+{title: "فيديو (النوع 1)", rowId: `${usedPrefix}ytv ${url}`, description: `${title}\n`},
+{title: "فيديو (النوع 2)", rowId: `${usedPrefix}play.2 ${url}`, description: `${title}\n`},
+{title: "فيديو (النوع ملف) ", rowId: `${usedPrefix}pdocvieo ${url}`, description: `${title}\n`}
 ]},{
-title: comienzo + ' 🔎 𝗕𝗨𝗦𝗤𝗨𝗘𝗗𝗔 𝗔𝗩𝗔𝗡𝗭𝗔𝗗𝗔 ' + fin,
+title: comienzo + ' 🔎عرض نتائج البحث ' + fin,
 rows: [
-{title: "𓃠 𝗠 𝗔 𝗦   𝗥 𝗘 𝗦 𝗨 𝗟 𝗧 𝗔 𝗗 𝗢 𝗦", rowId: `${usedPrefix}ytsearch ${text}`}
+{title: "جميع نتائج البحث", rowId: `${usedPrefix}ytsearch ${text}`}
 ]}]
 
 const listMessage = {
-  text: `*𝙀𝙇𝙄𝙅𝘼 𝙌𝙐𝙀 𝙑𝘼 𝙃𝘼𝘾𝙀𝙍 𝘾𝙊𝙉  ${text}*`,
+  text: `  *نتائج البحث عن:*\n*${text}*`,
   footer: global.wm,
-  title: `${htki} *♻️ 𝘿𝙀𝙎𝘾𝘼𝙍𝙂𝘼𝙎* ${htka}`,
-  buttonText: `🍄 𝙀𝙇𝙀𝙍𝙂𝙄𝙍 🍁`,
+  title: `${htki} *♻️ نتائج* ${htka}`,
+  buttonText: `🍄 اختيار طريقة التحميل 🍁`,
+  sections
+}
+
+await conn.sendMessage(m.chat, listMessage, {quoted: fkontak})
+}catch(e){
+m.reply(`${lenguajeGB['smsAvisoFG']()} حاول مره ثانيه `)
+console.log(e)
+}}
+handler.help = ['play', 'play2'].map(v => v + ' <pencarian>')
+handler.tags = ['downloader']
+handler.command = /^play2?$/i
+handler.exp = 20
+handler.money = 200
+export default handler
+*/
+
+
+import fetch from 'node-fetch'
+import { youtubeSearch } from '@bochilteam/scraper'
+let handler = async (m, { conn, command, text, usedPrefix }) => {
+try {
+let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+let grupos = [nn, nnn, nnnt]
+let gata = [img5, img6, img7, img8, img9]
+let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
+let dos = [enlace, enlace2]
+
+if (!text) throw `${lenguajeGB['smsAvisoMG']()} اكتب الاسم أو العنوان\nمثل\n*${usedPrefix + command} ما تيسر من سورة التغابن*`
+let vid = (await youtubeSearch(text)).video[0]
+if (!vid) throw `${lenguajeGB['smsAvisoFG']()} تعذر العثور على الصوت/الفيديو. جرب اسما أو لقبا آخر `
+let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
+const url = 'https://www.youtube.com/watch?v=' + videoId
+ 
+await conn.sendButton(m.chat, wm, `*𓆩༺════ •⊰${vs}⊱• ════༻𓆪*
+
+ও العنوان 
+» ${title}
+﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
+ও الوصف
+» ${description}
+﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
+ও تاريخ النشر
+» ${publishedTime}
+﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
+ও المدة
+» ${durationH}
+﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
+ও المشاهدات 
+» ${viewH}
+﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
+ও الرابط
+» ${url}
+
+*༺════ •⊰❤️⊱• ════༻*`, thumbnail, [['قائمة الأوامر☘️', '/menu']], m, dos.getRandom())
+  
+const sections = [{
+title: comienzo + ' 📡 اختر نوع تحميل' + fin,
+rows: [
+{title: "صوت (1)", rowId: `${usedPrefix}yta ${url}`, description: `${title}\n`},
+{title: "صوت (2)", rowId: `${usedPrefix}play.1 ${url}`, description: `${title}\n`},
+{title: "صوت (ملف) ", rowId: `${usedPrefix}pdocaudio ${url}`, description: `${title}\n`},
+{title: "فيديو ( 1)", rowId: `${usedPrefix}ytv ${url}`, description: `${title}\n`},
+{title: "فيديو ( 2)", rowId: `${usedPrefix}play.2 ${url}`, description: `${title}\n`},
+{title: "فيديو (ملف) ", rowId: `${usedPrefix}pdocvieo ${url}`, description: `${title}\n`}
+]},{
+title: comienzo + ' 🔎 جميع نتائج البحث' + fin,
+rows: [
+{title: "عرض نتائج البحث ", rowId: `${usedPrefix}ytsearch ${text}`}
+]}]
+
+const listMessage = {
+  text: `*اختر ما تريد القيام به مع  ${text}*`,
+  footer: global.wm,
+  title: `${htki} *♻️ نتائج* ${htka}`,
+  buttonText: `🍄  اختيار طريقة التحميل 🍁`,
   sections
 }
 
@@ -69,13 +145,14 @@ const url = 'https://www.youtube.com/watch?v=' + videoId
 let ytLink = await fetch(`https://api.lolhuman.xyz/api/ytplay2?apikey=${lolkeysapi}&query=${text}`)
 let jsonn = await ytLink.json()
 let aud = await jsonn.result.audio
-let capt = `ও 𝙏𝙄𝙏𝙐𝙇𝙊 | 𝙏𝙄𝙏𝙇𝙀: ${title}\nও 𝙋𝙐𝘽𝙇𝙄𝘾𝘼𝘿𝙊 | 𝙋𝙐𝘽𝙇𝙄𝙎𝙃𝙀𝘿: ${published}\nও 𝙑𝙄𝙎𝙏𝘼𝙎 | 𝙑𝙄𝙀𝙒𝙎: ${views}`
-const buttons = [{buttonId: `#playlist ${title}`, buttonText: {displayText: '𓃠 𝗠 𝗔 𝗦   𝗥 𝗘 𝗦 𝗨 𝗟 𝗧 𝗔 𝗗 𝗢 𝗦'}, type: 1}]
-const buttonMessage = { image: {url: thumbnail}, caption: capt, footer: '*ᴇɴᴠɪᴀɴᴅᴏ ᴀᴜᴅɪᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*', buttons: buttons, headerType: 4 }
+let capt = `ও  عنوان: ${title}\nও نشر: ${published}\nও طرق عرض: ${views}`
+const buttons = [{buttonId: `#playlist ${title}`, buttonText: {displayText: '𓃠 نتائج البحث'}, type: 1}]
+const buttonMessage = { image: {url: thumbnail}, caption: capt, footer: '*جاري إرسال الصوت انتظر لحظة... *', buttons: buttons, headerType: 4 }
 let msg = await conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 conn.sendMessage(m.chat, { audio: { url: aud }, mimetype: 'audio/mp4', fileName: `${title}.mp3`}, {quoted: msg})
-} catch {  
-throw '╰⊱❗️⊱ *ACCIÓN MAL USADA* ⊱❗️⊱╮\n\n𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝙊 𝙏𝙄𝙏𝙐𝙇𝙊\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*/play Billie Eilish - Bellyache*\n\n𝙒𝙍𝙄𝙏𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀 𝙊𝙍 𝙏𝙄𝙏𝙇𝙀\n𝙀𝙓𝘼𝙈𝙋𝙇𝙀\n*/play2 Billie Eilish - Bellyache*'}}}
+} catch (e) {
+m.reply('╰⊱❌⊱ *خطأ* ⊱❌⊱╮\n\n حاول من جديد حدث خطاء في الخادم*')
+}}
 handler.help = ['play', 'play2'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']
 handler.command = /^play2?$/i

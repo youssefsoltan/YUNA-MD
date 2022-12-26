@@ -81,12 +81,12 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 
 ⠇ ${lenguajeGB['smsTex1']()} 🔍
-∘ _${usedPrefix}animeinfo *texto*_
-∘ _${usedPrefix}mangainfo *texto*_
-∘ _${usedPrefix}google *texto*_
-∘ _${usedPrefix}letra | lirik *texto*_
-∘ _${usedPrefix}ytsearch | yts *texto*_
-∘ _${usedPrefix}wiki | wikipedia *texto*_
+∘ _${usedPrefix} انمي *نص*_
+∘ _${usedPrefix} مانغا *نص*_
+∘ _${usedPrefix} بحث *نص*_
+∘ _${usedPrefix} بحث1 *اغنية*_
+∘ _${usedPrefix} يت *نص*_
+∘ _${usedPrefix} ويكي  *نص*_
 `.trim()
 
 await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)

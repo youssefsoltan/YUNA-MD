@@ -80,30 +80,30 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 
 ⠇ ${lenguajeGB['smsTex9']()} 🚀
-∘ _${usedPrefix}imagen | image *texto*_
-∘ _${usedPrefix}pinterest | dlpinterest *texto*_
-∘ _${usedPrefix}wallpaper|wp *texto*_
-∘ _${usedPrefix}play | play2 *texto o link*_
-∘ _${usedPrefix}play.1 *texto o link*_
-∘ _${usedPrefix}play.2 *texto o link*_ 
-∘ _${usedPrefix}ytmp3 | yta *link*_
-∘ _${usedPrefix}ytmp4 | ytv *link*_
-∘ _${usedPrefix}pdocaudio | ytadoc *link*_
-∘ _${usedPrefix}pdocvieo | ytvdoc *link*_
-∘ _${usedPrefix}tw |twdl | twitter *link*_
-∘ _${usedPrefix}facebook | fb *link*_
-∘ _${usedPrefix}instagram *link video o imagen*_
-∘ _${usedPrefix}verig | igstalk *usuario(a)*_
-∘ _${usedPrefix}ighistoria | igstory *usuario(a)*_
-∘ _${usedPrefix}tiktok *link*_
-∘ _${usedPrefix}tiktokfoto | tiktokphoto *usuario(a)*_
-∘ _${usedPrefix}vertiktok | tiktokstalk *usuario(a)*_
-∘ _${usedPrefix}mediafire | dlmediafire *link*_
-∘ _${usedPrefix}clonarepo | gitclone *link*_
-∘ _${usedPrefix}clima *país ciudad*_
+∘ _${usedPrefix}imagen | صور  *نص*_
+∘ _${usedPrefix}pinterest | p *نص*_
+∘ _${usedPrefix}wallpaper|wp *نص*_
+∘ _${usedPrefix}play | play2 *نص أو رابط*_
+∘ _${usedPrefix}play.1 *رابط او نص*_
+∘ _${usedPrefix}play.2 *رابط او نص*_ 
+∘ _${usedPrefix}ytmp3 | yta *رابط*_
+∘ _${usedPrefix}ytmp4 | ytv *رابط*_
+∘ _${usedPrefix}pdocaudio | ytadoc *رابط*_
+∘ _${usedPrefix}pdocvieo | ytvdoc *رابط*_
+∘ _${usedPrefix}tw |twdl | twitter *رابط*_
+∘ _${usedPrefix}facebook | fb *رابط*_
+∘ _${usedPrefix}instagram *رابط فيديو او صوره*_
+∘ _${usedPrefix}verig | igstalk *مستخدم*_
+∘ _${usedPrefix}ighistoria | igstory *اسم المستخدم*_
+∘ _${usedPrefix}tiktok *رابط*_
+∘ _${usedPrefix}tiktokfoto | tiktokphoto *اسم المستخدم*_
+∘ _${usedPrefix}vertiktok | tiktokstalk *اسم المستخدم*_
+∘ _${usedPrefix}mediafire | dlmediafire *رابط*_
+∘ _${usedPrefix}clonarepo | gitclone *رابط*_
+∘ _${usedPrefix}clima *بلد المدينة*_
 ∘ _${usedPrefix}consejo_
-∘ _${usedPrefix}morse codificar *texto*_
-∘ _${usedPrefix}morse decodificar *morse*_
+∘ _${usedPrefix}morse codificar *نص*_
+∘ _${usedPrefix}morse decodificar *مورس*_
 ∘ _${usedPrefix}fraseromantica_
 ∘ _${usedPrefix}historia_
 `.trim()
