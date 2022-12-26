@@ -1,4 +1,4 @@
-console.log('𝙄𝙉𝙄𝘾𝙄𝘼𝙉𝘿𝙊 : 𝙎𝙏𝘼𝙍𝙏𝙄𝙉𝙂 🚀')
+console.log('𝙎𝙏𝘼𝙍𝙏𝙄𝙉𝙂 🚀')
 import { join, dirname } from 'path'
 import { createRequire } from "module";
 import { fileURLToPath } from 'url'
@@ -55,7 +55,7 @@ p.send(process.uptime())
 break }})
 p.on('exit', (_, code) => {
 isRunning = false
-console.error('⚠️ Error Inesperado : Unexpected Error', code)
+console.error('⚠️Unexpected Error', code)
   
 p.process.kill()
 isRunning = false
