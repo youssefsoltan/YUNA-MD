@@ -84,14 +84,14 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}emojimix *😺+😆*_
 ∘ _${usedPrefix}scircle | círculo *imagen*_
 ∘ _${usedPrefix}semoji | emoji *tipo emoji*_
-∘ _${usedPrefix}attp *texto*_
-∘ _${usedPrefix}attp2 *texto*_
-∘ _${usedPrefix}ttp *texto*_
-∘ _${usedPrefix}ttp2 *texto*_
-∘ _${usedPrefix}ttp3 *texto*_
-∘ _${usedPrefix}ttp4 *texto*_
-∘ _${usedPrefix}ttp5 *texto*_
-∘ _${usedPrefix}ttp6 *texto*_
+∘ _${usedPrefix}attp *نص*_
+∘ _${usedPrefix}attp2 *نص*_
+∘ _${usedPrefix}ttp *نص*_
+∘ _${usedPrefix}ttp2 *نص*_
+∘ _${usedPrefix}ttp3 *نص*_
+∘ _${usedPrefix}ttp4 *نص*_
+∘ _${usedPrefix}ttp5 *نص*_
+∘ _${usedPrefix}ttp6 *نص*_
 ∘ _${usedPrefix}palmaditas | pat *@tag*_
 ∘ _${usedPrefix}bofetada | slap *@tag*_
 ∘ _${usedPrefix}besar | kiss *@tag*_

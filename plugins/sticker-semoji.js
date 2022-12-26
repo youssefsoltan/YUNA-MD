@@ -7,13 +7,13 @@ const emoji = new EmojiAPI()
 
 let handler = async (m, { conn, args, usedPrefix, command, isPrems }) => {
 let er = `
-${mg}𝘿𝙀𝘽𝙀 𝘿𝙀 𝙐𝙎𝘼𝙍 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝘾𝙊𝙈𝙊 𝙀𝙉 𝙀𝙇 𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n\n𝙔𝙊𝙐 𝙈𝙐𝙎𝙏 𝙐𝙎𝙀 𝙏𝙃𝙀 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 𝘼𝙎 𝙄𝙉 𝙏𝙃𝙀 𝙀𝙓𝘼𝙈𝙋𝙇𝙀
+${mg} يجب عليك استخدام الأمر كما في المثال
 *${usedPrefix + command} _tipo emoji_*
 
-⊱⊱ 𝙀𝙅𝙀𝙈𝙋𝙇𝙊 | 𝙀𝙓𝘼𝙈𝙋𝙇𝙀
+⊱⊱  | مثل
 *${usedPrefix + command}* sa 😹
 
-⊱⊱ 𝙏𝙄𝙋𝙊𝙎 𝘿𝙀 𝙀𝙈𝙊𝙅𝙄𝙎 | 𝙏𝙔𝙋𝙀𝙎 𝙊𝙁 𝙀𝙈𝙊𝙅𝙄𝙎
+⊱⊱  | أنواع الرموز التعبيرية
 
 *✦ wha = whatsapp* 
 *✦ sa = samsung*
