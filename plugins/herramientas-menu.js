@@ -79,11 +79,11 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 
 ⠇ ${lenguajeGB['smsTex12']()} 🛠️
-∘ _${usedPrefix}afk *motivo*_
-∘ _${usedPrefix}acortar *url*_
-∘ _${usedPrefix}calc *operacion math*_
-∘ _${usedPrefix}del *respondre a mensaje del Bot*_
-∘ _${usedPrefix}qrcode *texto*_
+∘ _${usedPrefix} افك *سبب*_
+∘ _${usedPrefix} تقصير *الرابط*_
+∘ _${usedPrefix}calc *الرياضيات*_
+∘ _${usedPrefix}del *الرد على رسالة بوت*_
+∘ _${usedPrefix}qrcode *نص*_
 ∘ _${usedPrefix}readmore *texto1|texto2*_
 ∘ _${usedPrefix}spamwa *numero|texto|cantidad*_
 ∘ _${usedPrefix}styletext *texto*_

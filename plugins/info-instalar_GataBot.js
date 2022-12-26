@@ -1,4 +1,4 @@
-let handler  = async (m, { conn, usedPrefix, command }) => {
+/*let handler  = async (m, { conn, usedPrefix, command }) => {
 const fkontak = {
 	"key": {
     "participants":"0@s.whatsapp.net",
@@ -47,7 +47,7 @@ pkg install nodejs -y
 pkg install ffmpeg -y
 pkg install imagemagick -y
 pkg install yarn
-git clone https://github.com/GataNina-Li/GataBot-MD2
+git clone https://github.com/
 cd GataBot-MD2
 yarn install 
 npm install
@@ -71,3 +71,4 @@ conn.sendButton(m.chat, gata, `Comunícate con Mí Creadora si necesitas ayuda c
 
 handler.command = /^(instalarbot|instalargatabot|instalargata|procesobot|botproceso|procesodelbot|botinstall|installbot)/i
 export default handler
+/*
