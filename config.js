@@ -105,7 +105,7 @@ global.author = 'YUNA BOT'
 
 //⊱ ━━━━━.⋅ الإصدار | الرقم | حسابات ⋅.━━━━ ⊰
 
-global.vs = '1.4.0'
+global.vs = '1.0.0'
 global.version = vs
 
 global.gt = 'YUNA-MD'
