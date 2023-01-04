@@ -959,6 +959,7 @@ export async function handler(chatUpdate) {
                 if (!('autoread' in settings)) settings.autoread = false
                 if (!('restrict' in settings)) settings.restrict = false
 		if (!('temporal' in settings)) settings.temporal = true
+		if (!('antiPrivate' in settings)) settings.antiPrivate = false
 		if (!('antiCall' in settings)) settings.antiCall = true
 		if (!('antiSpam' in settings)) settings.antiSpam = true
             } else global.db.data.settings[this.user.jid] = {
@@ -966,6 +967,7 @@ export async function handler(chatUpdate) {
                 autoread: false,
                 restrict: false,
 		temporal: true,
+		antiPrivate: true,
 		antiCall: true,
 		antiSpam: true
             }
@@ -1341,9 +1343,8 @@ export async function participantsUpdate({ id, participants, action }) {
                         text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || lenguajeGB.smsCont12()) :
                             (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', await this.getName(user)) //.replace('@user', '@' + user.split('@')[0])
                             let apii = await this.getFile(pp)
-this.sendButton(id, wm, text, apii.data, [[(action == 'add' ? lenguajeGB.smsCont13() : lenguajeGB.smsCont14()), (action == 'add' ? '.s' : '.s')], ['💖 قائمة الأوامر ', `.menu`]], null, {mentions: this.parseMention(text)})
-//this.sendHydrated(id, text, groupMetadata.subject, apii.data, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
-//[(action == 'add' ? '𝙎𝙚 𝙪𝙣𝙞𝙤 🥳 | 𝙃𝙞!!' : '𝙎𝙚 𝙛𝙪𝙚 𝙪𝙣 𝙍𝙖𝙣𝙙𝙤𝙢 🧐 | 𝘽𝙮𝙚'), '.s'], ['💖 𝙄𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪 | 𝙂𝙤 𝙈𝙚𝙣𝙪', '/menu']], '', { mentions: [user]})
+this.sendButton(id, wm, text, apii.data, [[(action == 'add' ? lenguajeGB.smsCont13() : lenguajeGB.smsCont14()), (action == 'add' ? '.s' : '.s')], ['💖 الله وياك ', `a`]], null, {mentions: this.parseMention(text)})
+
 }}}
 		    
 break
