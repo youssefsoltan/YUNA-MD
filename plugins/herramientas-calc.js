@@ -1,10 +1,10 @@
-let handler = async (m, { conn, text }) => {
+/*let handler = async (m, { conn, text }) => {
 let id = m.chat
 conn.math = conn.math ? conn.math : {}
 if (id in conn.math) {
 clearTimeout(conn.math[id][3])
 delete conn.math[id]
-m.reply('😨 𝙉𝙊 𝙃𝘼𝙂𝘼𝙎 𝙏𝙍𝘼𝙈𝙋𝘼!!\n𝘿𝙊 𝙉𝙊𝙏 𝘾𝙃𝙀𝘼𝙏!!')
+m.reply('😨 لا تغش!!')
 }
 let val = text
 .replace(/[^0-9\-\/+*×÷πEe()piPI/]/g, '')
@@ -34,3 +34,4 @@ handler.tags = ['tools']
 handler.command = /^(calc(ulat(e|or))?|kalk(ulator)?)$/i
 handler.exp = 5
 export default handler
+*/ 
