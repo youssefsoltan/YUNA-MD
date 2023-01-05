@@ -19,6 +19,8 @@ await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid }
 if (command == 'غباء') {
 let juego = `_*${text.toUpperCase()} غبي بنسبا ${(500).getRandom()}%*_`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
+
+
   
 
  // ------------------------------------------------------------------------------------------------------------------------------------------------   

@@ -13,7 +13,6 @@ function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
 
-// https://jalantikus.com/tips/kata-kata-bucin/
 global.bucin = [
 "لو قررت تقفل جوالك يوم كامل مين تتوقع أنه يفتقدك ؟",
 "اكثر كذبة تقولها ؟",

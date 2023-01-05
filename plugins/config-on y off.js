@@ -370,6 +370,15 @@ throw false
 global.opts['gconly'] = isEnable
 break
 
+case 'antiprivado':
+case 'privado':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.antiPrivate = isEnable
+break
 case 'antitrabas':
 case 'antitraba':
 if (m.isGroup) {
@@ -388,6 +397,7 @@ throw false
 }}
 chat.simi = isEnable
 break
+
 
 case 'swonly': case 'statusonly':
 isAll = true

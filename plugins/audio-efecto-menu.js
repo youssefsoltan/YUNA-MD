@@ -70,14 +70,12 @@ let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardi
 
 let menuA = `🎧 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
 let menuB = `╭┄〔 *${wm}* 〕┄⊱
-┊დ *${week}, ${date}*
 ┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
 ┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
 ┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 
-⠇ ${lenguajeGB['smsTex2']()} 🧰
+⠇ ${lenguajeGB['smsTex2']()} 🧰\nقم بكتابه الأمر و منشن صوت الذي تريد تعديله
 ∘ _${usedPrefix}bass_
 ∘ _${usedPrefix}blown_
 ∘ _${usedPrefix}deep_
