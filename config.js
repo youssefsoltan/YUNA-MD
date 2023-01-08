@@ -8,22 +8,23 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 global.owner = [
   [' 393271166550 ', 'MAYO 👑 ', true],
-  ['213674234020', 'YUNA 💖', true],
-  ['213674234020', '𝐿 - 99👤', true],
-  ['213784391714']]
+  ['201002771022', 'YUNA 💖', true],
+  ['213784391714', '𝐿 - 99👤', true],
+  ['+20 100 277 1022']]
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.mods = [' 393271166550'] 
+global.mods = [] 
 global.prems = [' 393271166550 '], 
+   
   
-  
-//⊱ ━━━━━.⋅ لغه ⋅.━━━━ ⊰ 
-//أضف اللغة التي تريد أن يمتلكها بوت
-//  es = اسباني         id = الإندونيسية 
-//  en = انجليزي         pt = برتغال 
+//⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
+//Agrega el Idioma que quieres que tenga GataBot-MD
+//Add the language you want GataBot-MD to have
+//  es = Español         id = Bahasa Indonesia
+//  en = English         pt = Português 
 //  ar = عرب  
 
-global.lenguajeGB = ar  //لغه YUNA-MD, مثال: es | en | pt...
+global.lenguajeGB = ar  //Idioma de GataBot, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -63,7 +64,7 @@ global.APIs = { // API Prefix.
 },
   
 global.APIKeys = { // APIKey Here
-  //⊱ ━━━━━.⋅ 'https://website': 'مفتاح الايبي' ⋅.━━━━ ⊰
+  //⊱ ━━━━━.⋅ 'https://website': 'apikey' ⋅.━━━━ ⊰
   'https://ariarestapii.herokuapp.com': 'aria',
   'https://api-alc.herokuapp.com': 'ConfuMods',
   'https://api.reysekha.xyz': 'apirey',
@@ -82,33 +83,25 @@ global.APIKeys = { // APIKey Here
   'https://neoxr-api.herokuapp.com': 'yntkts',
   'https://anabotofc.herokuapp.com/': 'AnaBot'
 }
-global.imagen1 = fs.readFileSync('./media/menus/Menu1.jpg')
+
+global.imagen1 = fs.readFileSync('./media/menus/Menu3.jpg')
 
 //⊱ ━━━━━.⋅ KEY ⋅.━━━━ ⊰
-
-global.Key360 = ['964f-0c75-7afc'] //keys ephoto360
-//global.beta = ['https://violetics.pw'] //keys ephoto360
-
-global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
-global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = 'YUNA-MD 🐻'
-global.author = 'YUNA BOT'
+global.packname = 'YUNA BOT 🧸'
+global.author = 'YUNA-MD'
 
-//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+//⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-
-//⊱ ━━━━━.⋅ الإصدار | الرقم | حسابات ⋅.━━━━ ⊰
-
-global.vs = '1.0.0'
+global.vs = '1.4.5'
 global.version = vs
 
-global.gt = 'YUNA-MD'
+global.gt = 'YUNA BOT'
 global.gatabot = gt
 
 global.yt = 'https://youtube.com/'
@@ -117,11 +110,11 @@ global.youtube = yt
 global.ig = 'https://www.instagram.com/a_e_b_2003'
 global.gatadiosig = ig
 
-global.md = 'https://github.com/ahmed1p7'
+global.md = 'https://github.com/ahmed1p7/YUNA-MD'
 global.gatabot = md
 
 global.nna = 'https://chat.whatsapp.com/IxeB9yBYrNp85CLmKykmMM'
-global.nnagrupo = nna //UPDATE YUNA
+global.nnagrupo = nna //UPDATE YUNA BOT 
 global.nna2 = 'IxeB9yBYrNp85CLmKykmMM'
 
 global.nn = 'https://chat.whatsapp.com/KSgHcPpZiXV7fMAscoptfw'
@@ -138,16 +131,15 @@ global.nnnttgrupo = nnntt //Grupo 4
 
 global.nnnttt = 'https://chat.whatsapp.com/KSgHcPpZiXV7fMAscoptfw'
 global.nnntttgrupo = nnnttt //Grupo 5
-
-global.paypal = 'https://paypal.me/yunbot'
+global.paypal = 'https://paypal.me/yunabot'
 global.donar = paypal
 
-global.asistencia = 'Wa.me/393271166550' //Dudas? escríbeme...
+global.asistencia = 'Wa.me/393271166550' //
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
-//⊱ ━━━━━━━━━━━━━.⋅ بيانات ⋅.━━━━━━━━━━━━━━ ⊰
+//⊱ ━━━━━━━━━━━━━.⋅ Datos ⋅.━━━━━━━━━━━━━━ ⊰
 
 global.rg = '╰⊱✅⊱ *نتيجة* ⊱✅⊱╮\n\n'
 global.resultado = rg
@@ -170,11 +162,11 @@ global.envio = eeg
 global.eg = '╰⊱💚⊱ *نجاح* ⊱💚⊱╮\n\n'
 global.exito = eg
 
-//مثال
+
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
-//⊱ ━━━━━.⋅ معلومات ⋅.━━━━ ⊰
+//⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
 global.wm = ' YUNA-MD: YUNA'
 global.igfg = 'YUNA-MD'
@@ -183,16 +175,21 @@ global.waitt = '*⌛ _جاري التحميل..._ ▬▬▭▭▭*'
 global.waittt = '*⌛ _جاري التحميل..._ ▬▬▬▬▭▭*'
 global.waitttt = '*⌛ _جاري التحميل..._ ▬▬▬▬▬▬▭*'
 global.nomorown = ' 393271166550' 
-global.pdoc = ['', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
+global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
 //━━━━━━━━━━━━━━lolkeys━━━━━━━━━
 
-global.lolkeys = ['2e0da1f78d1721134b21816d', '902c3bc9d8c08b0dcf8f5373', '808693688ecc695293359089', '85faf717d0545d14074659ad']
-//global.lolkeysapi = lolkeys[Math.floor(lolkeys.length * Math.random())]
-global.lolkeysapi = ['85faf717d0545d14074659ad']
+global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
+// 'fiktod' 'BF39D349845E' '675e34de8a' '0b917b905e6f'
+global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
+global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
+global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
+global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
+global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
+global.lolkeysapi = ['BrunoSobrino']
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
