@@ -1,4 +1,4 @@
-console.log('𝙎𝙏𝘼𝙍𝙏𝙄𝙉𝙂 🚀')
+console.log('𝙄𝙉𝙄𝘾𝙄𝘼𝙉𝘿𝙊 : 𝙎𝙏𝘼𝙍𝙏𝙄𝙉𝙂 🚀')
 import { join, dirname } from 'path'
 import { createRequire } from "module";
 import { fileURLToPath } from 'url'
@@ -13,7 +13,7 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('YUNA\nBot\nMD', {
+say('Yuna\nBot\nMD', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
@@ -43,7 +43,7 @@ args: args.slice(1), })
 let p = fork()
 p.on('message', data => {
 //setTimeout(() => {  
-console.log('╭--------- - - - ✓\n┆ ✅ TIEMPO DE ACTIVIDAD ACTUALIZADA\n╰-------------------- - - -', data)//}, 50000)
+console.log('┆ ✓ ACTIVIDAD ACTUALIZADA\n╰----------------- - - -', data)//}, 50000)
 switch (data) {
 case 'reset':
 p.process.kill()
@@ -55,7 +55,7 @@ p.send(process.uptime())
 break }})
 p.on('exit', (_, code) => {
 isRunning = false
-console.error('⚠️Unexpected Error', code)
+console.error('⚠️ Error Inesperado : Unexpected Error', code)
   
 p.process.kill()
 isRunning = false
