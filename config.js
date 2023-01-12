@@ -7,14 +7,14 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 global.owner = [
-  [' 393271166550 ', 'MAYO 👑 ', true],
-  ['201002771022', 'YUNA 💖', true],
-//  ['213784391714', '𝐿 - 99👤', true],
-  ['+20 100 277 1022']]
+  [' 201227179105 ', 'YoUsSef Al SoLtAn 👑 ', true],
+  ['201227179105', 'BOT - AL SOLTAN 💖', true],
+//  ['201227179105', '𝐿 - 99👤', true],
+  ['+20 122 717 9105']]
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 global.mods = [] 
-global.prems = [' 393271166550 '], 
+global.prems = [' 201227179105 '], 
    
   
 //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
@@ -107,34 +107,34 @@ global.gatabot = gt
 global.yt = 'https://youtube.com/'
 global.youtube = yt
 
-global.ig = 'https://www.instagram.com/a_e_b_2003'
+global.ig = 'https://www.instagram.com/1y._.o2'
 global.gatadiosig = ig
 
-global.md = 'https://github.com/ahmed1p7/YUNA-MD'
+global.md = 'https://github.com/youssefsoltan'
 global.gatabot = md
 
-global.nna = 'https://chat.whatsapp.com/IxeB9yBYrNp85CLmKykmMM'
+global.nna = 'https://youtube.com/@YOUSSEF-ALSOLTN'
 global.nnagrupo = nna //UPDATE YUNA BOT 
 global.nna2 = 'IxeB9yBYrNp85CLmKykmMM'
 
-global.nn = 'https://chat.whatsapp.com/KSgHcPpZiXV7fMAscoptfw'
+global.nn = 'https://youtube.com/@YOUSSEF-ALSOLTN'
 global.nngrupo = nn //Grupo 1
 
-global.nnn = 'https://chat.whatsapp.com/KSgHcPpZiXV7fMAscoptfw'
+global.nnn = 'https://youtube.com/@YOUSSEF-ALSOLTN'
 global.nnngrupo = nnn //Grupo 2
 
-global.nnnt = 'https://chat.whatsapp.com/KSgHcPpZiXV7fMAscoptfw'
+global.nnnt = 'https://youtube.com/@YOUSSEF-ALSOLTN'
 global.nnntgrupo = nnnt //Grupo 3
 
-global.nnntt = 'https://chat.whatsapp.com/KSgHcPpZiXV7fMAscoptfw'
+global.nnntt = 'https://youtube.com/@YOUSSEF-ALSOLTN'
 global.nnnttgrupo = nnntt //Grupo 4
 
-global.nnnttt = 'https://chat.whatsapp.com/KSgHcPpZiXV7fMAscoptfw'
+global.nnnttt = 'https://youtube.com/@YOUSSEF-ALSOLTN'
 global.nnntttgrupo = nnnttt //Grupo 5
 global.paypal = 'https://paypal.me/yunabot'
 global.donar = paypal
 
-global.asistencia = 'Wa.me/393271166550' //
+global.asistencia = 'Wa.me/201227179105' //
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
